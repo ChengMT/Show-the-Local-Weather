@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Show the Local Weather</title>
+    <link href="/CSS/reset.css" rel="stylesheet" type="text/css">
+    <link href="/CSS/Ajax2.css" rel="stylesheet" type="text/css">
+    
+</head>
+<body style="min-width:1080px">
+    <div >
+        <p class="title_one">天气查询</p>
+        <p class="title_two">
+            <input type="text" placeholder="请输入地址" id="searchInput" >
+            <button id="searchMe" class="search_button" >搜索</button>
+        </p>
+    </div>
+    <div id="display" class="display_window">
+        <p style="font-size: 30px;font-weight:bold;"><span id="address"></span> 今天天气  </p>
+        <p>日期：<span id="data"></span></p>
+        <p>星期：<span id="week"></span></p>
+        <p>最高温度：<span id="hig-wearther"></span></p>
+        <p>最低温度：<span id="low-wearther"></span></p>
+        <p>天气情况：<span id="wearther"></span></p>
+    </div>
+    <div id="More" class="display_more" style="overflow-x:auto">
+        <p style="font-size: 25px;padding:10px 20px;font-weight:bold;">未来6天天气</p>
+        <p id="firstDay" ></p>
+        
+        
+        
+    </div>
+
+</body>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="/JS/Ajax2.js"></script>
+</html>

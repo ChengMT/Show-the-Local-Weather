@@ -1,0 +1,67 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+    SimSun, sans-serif;
+}
+
+.title_one{
+    font-family: "Microsoft Yahei";
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 30px;
+    font-weight: bold;
+    
+}
+.title_two{
+    text-align: center;
+    padding: 10px 30px;
+    
+}
+input{
+    font-size: 20px;
+    border: solid 2px peachpuff;
+    border-radius: 0.3;
+    padding: 5px 5px;
+}
+.search_button{
+    font-size: 20px;
+    padding: 5px 5px;
+}
+.display_window{
+    
+    font-size: 20px;
+    text-align: center;
+    border: solid 2p ;
+    background-color: peachpuff;
+    border-radius: 2%;
+    padding: 20px 30px;
+    margin: 0 auto;
+    color: rgb(52, 23, 219);
+    width: 15em;
+}
+.display_window p{
+    padding: 5px 0; 
+}
+.display_more{
+    text-align: center;
+    /* padding: 10px 20px; */
+    /* margin: 10px 50px; */
+    font-size: 15px;
+}
+
+button:hover{
+    opacity: 0.7;
+    cursor:pointer;
+}
+
+.display-next{
+    display: inline-block;
+    vertical-align: top;
+    width: 13em;
+    text-align: center;
+    padding: 10px 5px;
+    background-color: palegoldenrod;
+    line-height: 30px;
+    margin: 5px 5px;
+    box-sizing: border-box;
+}
